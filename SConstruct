@@ -1,5 +1,7 @@
 
-env = Environment()
+import os
+
+env = Environment(ENV = os.environ)
 
 includes = '''
               .
